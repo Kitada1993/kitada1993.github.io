@@ -1,0 +1,172 @@
+#wrap{
+  width: 100%;
+  overflow: hidden;
+  margin:0 auto;
+  }
+  body {
+  margin: 0px;
+  }
+  ul {
+  	font-size: 0;
+      margin: 0px;
+      padding: 0px;
+      display: table;
+  }
+  li {
+      list-style-type: none;
+      display: inline-table;
+      font-size: 12px;
+      vertical-align: middle;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica,Arial,sans-serif;
+   }
+   a:hover { color:#313131; }
+
+#head{
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  display: table;
+  z-index: 100;
+}
+
+#head div {
+  width: 33%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+}
+
+nav{
+  width: 155px;
+  margin-top: 44px;
+  position: fixed;
+}
+#content{
+  width: 1070px;
+  margin:50px auto 0px;
+}
+.waku_text {
+  width: 130px;
+  padding-left: 22px;
+  overflow: hidden;
+}
+.waku_text_left {
+  width: 130px;
+  padding-left: 200px;
+  overflow: hidden;
+}
+.genre{
+  font-size: 12px;
+  margin-top: 29px;
+  color: #fff;
+}
+.title{
+  font-size: 20px;
+  margin-top: 15px;
+  color: #313131;
+}
+.text{
+  font-size: 13px;
+  margin-top: 15px;
+  color: #313131;
+  line-height:1.5;
+}
+.waku_icon{
+  margin-top: 40px;
+ }
+.waku_icon img{
+  margin-right: 4px;
+}
+.waku_icon_2 img{
+  margin-right: 4px;
+}
+.waku_icon_2{
+   margin-top: 20px;
+  }
+.kuru{
+  width: 100%;
+}
+.kuru_img{
+  /*width: 60px;
+  height: 60px;
+  margin:20px auto;*/
+  width: 60px;
+  height: 60px;
+  margin: 320px auto 0; 
+
+}
+
+#pagetop{
+  text-align: right;
+  margin-right: 30px;
+}
+#ft_content{
+  width: 1070px;
+  margin:0 auto;
+  padding-top: 30px;
+  display: flex;
+}
+#ft_content a{
+  font-size: 11px;
+display: inline-block;
+margin-right: 20px;
+}
+#ft_content p{
+  font-size: 8px;
+  margin-top: 5px;
+  color: #fff;
+
+}
+.ft_img{
+  margin-right: 50px;
+}
+#ft{
+  width: 100%;
+  height: 100px;
+  background-color: #88be00;
+}
+#main-nav {
+  z-index: 100;
+}
+#main-nav ul li a:hover {
+  -webkit-filter: brightness(1.1);
+  filter: brightness(1.2);
+}
+
+
+/* hayamin */
+#content {
+  margin: 50px auto 0 auto;
+  width: 1080px;
+  overflow: hidden;
+}
+.grid-item:hover {
+  /*-webkit-filter: brightness(1.1);
+  filter: brightness(1.2);*/
+  -webkit-filter: opacity(85%);
+  filter: opacity(85%);
+}
+.grid-item {
+  float: left;
+  width: 352px;
+  height: 214px;
+  padding-bottom: 6px;
+  overflow: hidden;
+}
+.grid-item--width2 {
+  width: 710px;
+  height: 434px;
+}
+.grid-item--width3 {
+  width: 710px;
+  height: 1314px;
+  padding-bottom: 6px;
+  overflow: hidden;
+}
