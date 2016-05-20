@@ -35,12 +35,24 @@
   z-index: 100;
 }
 
-#head div {
-  width: 33%;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  height: 50px;
+
+.wrap_head{
+  width: 1070px;
+  margin: 0 auto;
+  position: relative;
+}
+#head #head_content{
+  width: 178px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -89px;
+}
+#head .search{
+  width: 227px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 nav{
@@ -99,7 +111,7 @@ nav{
   margin:20px auto;*/
   width: 60px;
   height: 60px;
-  margin: 320px auto 0; 
+  margin: 320px auto 0;
 
 }
 
