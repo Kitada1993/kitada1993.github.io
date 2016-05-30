@@ -1,0 +1,306 @@
+body {
+margin: 0px;
+}
+a{
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Helvetica,Arial,sans-serif;
+ }
+ a:hover { color: #39F; }
+#wrap{
+  width: 100%;
+  overflow: hidden;
+  margin:0 auto;
+  }
+.base{
+  width: 1071px;
+  margin:0 auto;
+}
+.box{
+  margin: 0 auto 65px;
+  display: block;
+}
+
+.icon{
+  margin-right: 5px;
+  margin-top: 4px;
+}
+/*====全体=====*/
+
+
+#nav_bg{
+  height: 140px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  border-bottom: 3px #111 solid;
+}
+#nav{
+  width: 1071px;
+  margin:0 auto;
+  height: 140px;
+}
+#nav_top{
+  width: 100%;
+  text-align: right;
+  }
+#nav_top .link {
+  display: inline-block;
+  margin-right: 24px;
+  margin-top: 10px;
+  }
+#nav_mene{
+  height: 89px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  display: flex;
+  }
+ul {
+	font-size: 0;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+}
+li {
+    list-style-type: none;
+    display: inline-table;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.line_nav{
+  height: 3px;
+  width: 100%;
+  background-color:#111111;
+}
+.box_1{
+  margin-right: 111px;
+}
+.box_2{
+  margin-right: 114px;
+}
+.box_3{
+  margin-right: 114px;
+}
+.box_4{
+  margin-right: 98px;
+}
+.box_5{
+  margin-right: 102px;
+}
+.box_6{
+  margin-right: 95px;
+}
+.box_7{
+  margin-right: 0px;
+}
+/*＝＝＝FIN_ナビゲーション＝＝＝*/
+
+.main_v{
+  width: 100%;
+  height: 417px;
+  margin: 140px auto 65px;
+  background: url(../img/main_v.png);
+  background-position: center;
+}
+/*＝＝＝FIN_メイン画＝＝＝*/
+
+
+.box_box{
+  margin-bottom: 45px;
+}
+/*＝＝＝FIN_予約フォーム＝＝＝*/
+
+
+#about{
+  display: inline-block;
+  display: flex;
+justify-content: space-between;
+}
+.sen {
+  border: 3px solid #111;
+}
+#about_text{
+  margin-top: 81px;
+  text-align: center;
+}
+.about_pic{
+  width: 100px;
+  height: 562px;
+  background: url(../img/about_pic1.png);
+  background-position: center;
+}
+.about{
+  width: 264px;
+  margin-bottom: 30px;
+}
+.about p{
+  text-align: left;
+  line-height: 28px;
+}
+.line{
+  height: 3px;
+  width:100%;
+  background-color:#111111;
+  margin-top: 23px;
+  margin-bottom: 43px;
+}
+/*＝＝＝FIN_アピールポイント＝＝＝*/
+
+.link_waku{
+  display: flex;
+  margin-bottom: 45px;
+  justify-content: space-between;
+}
+.link_waku_2{
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+.link_box{
+  width: 335px;
+}
+.link_box p{
+  margin-top: 10px;
+}
+.tit{
+  height: 30px;
+  margin-top: 20px;
+}
+.tit_y{
+  float: right;
+  margin-right: 3px;
+}
+/*＝＝＝FIN_サービスメニュー＝＝＝*/
+
+#plan{
+  height: 340px;
+  width: 100%;
+  margin:0px auto 80px;
+  background-color: #eee;
+  background-position: center;
+}
+.plan{
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  padding-top:38px;
+  height: 262px;
+}
+.plan_a{
+	margin-right:14px;
+	}
+/*＝＝＝FIN_プラン＝＝＝*/
+
+
+.news_waku{
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.news{
+  display: inline-block;
+  display: flex;
+}
+.news_box{
+  width: 392px;
+  height: 140px;
+  background-color: #eee;
+}
+.news_text{
+  padding-top: 30px;
+  width: 295px;
+  margin: auto;
+}
+.text_size{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.text_size_2{
+  font-size: 14px;
+  line-height:24px;
+}
+/*＝＝＝FIN_ニュース＝＝＝*/
+
+
+#access{
+  height: 406px;
+  margin-top: 60px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+.access_pic{
+  width: 100px;
+  background: url(../img/access_pic01.png);
+}
+#access_text{
+  margin-top: 45px;
+  text-align: center;
+}
+.access_logo{
+  margin-right:40px;
+	}
+#access p{
+  text-align: left;
+  font-size:14px;
+  line-height: 28px;
+}
+.link_2{
+  margin-top: 30px;
+  text-align: right;;
+}
+/*＝＝＝FIN_アクセス＝＝＝*/
+
+
+
+.pagetop{
+  text-align: right;
+}
+.ft_bg{
+  height: 40px;
+  width:100%;
+  background-color:#00335c;
+  margin-top: 0px;
+}
+.ft_rogo{
+  width: 100%;
+  height: 67px;
+  margin: 0 auto;
+  background: url(../img/f_rogo.png);
+  background-position: center;
+}
+.ft_bg2{
+  height: 100px;
+  width:100%;
+  background-color:#00335c;
+  margin-top: 0px;
+}
+#ft_link_waku{
+  width: 650px;
+  margin:0 auto;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+#ft_link_waku a{
+	color: #fff;
+	}
+#ft_link_waku a:hover { color: #39F; }
+.link_ft{
+  margin-top: 8px;
+}
+.ft_bg_black{
+  height: 60px;
+  width:100%;
+  background-color:#000;
+  margin-top: 0px;
+}
+.copy{
+  padding-top: 22px;
+  text-align: center;
+  font-size: 12px;
+  color :#aaa;
+}
+/*＝＝＝FIN_フッター＝＝＝*/
